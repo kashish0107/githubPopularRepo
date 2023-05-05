@@ -1,0 +1,88 @@
+/* Write your CSS here */
+li {
+  list-style-type: none;
+  margin: 10px;
+}
+.rep-card {
+  min-width: 22vw;
+  height: 60vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  background-color: #f8f8ff;
+  box-shadow: 0px 2px 10px 0px #bfbfbf;
+}
+.rep-img {
+  width: 60px;
+  height: 60px;
+}
+.star-con {
+  width: 10vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* background-color: plum; */
+}
+.star-img {
+  width: 20px;
+  height: 20px;
+}
+p {
+  width: 8vw;
+  font-size: 20px;
+  color: #1e293b;
+  font-weight: 500;
+}
+.head {
+  color: red;
+  font-family: roboto;
+  font-size: 28px;
+}
+@media (min-width: 768px) and (max-width: 1100px) {
+  .rep-card {
+    min-width: 25vw;
+    max-height: 25vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    background-color: #f8f8ff;
+    box-shadow: 0px 2px 10px 0px #bfbfbf;
+    margin-bottom: 25px;
+  }
+}
+
+@media (max-width: 768px) {
+  .rep-card {
+    min-width: 70vw;
+    max-height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    background-color: #f8f8ff;
+    box-shadow: 0px 2px 10px 0px #bfbfbf;
+    padding-top: 35px;
+    padding-bottom: 30px;
+  }
+
+  .star-con {
+    width: 70vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: plum; */
+  }
+  p {
+    width: 35vw;
+    font-size: 20px;
+    color: #1e293b;
+    font-weight: 500;
+    margin-left: 10px;
+    /* background-color: aqua; */
+  }
+}

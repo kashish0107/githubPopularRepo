@@ -1,0 +1,39 @@
+/* Write your CSS here */
+.language-button {
+  min-width: 90px;
+  height: 40px;
+  font-size: 20px;
+  border: 0px;
+  color: black;
+  background-color: transparent;
+}
+.active {
+  min-width: 110px;
+  border: 2px solid #0284c7;
+  border-radius: 20px;
+  color: #0284c7;
+  font-weight: 500;
+  font-size: 28px;
+}
+
+li {
+  display: flex;
+}
+@media (max-width: 768px) {
+  .language-button {
+    min-width: 15px;
+    height: 40px;
+    font-size: 15px;
+    border: 0px;
+    color: black;
+    /* background-color: red; */
+  }
+  .active {
+    min-width: 15px;
+    border: 2px solid #0284c7;
+    border-radius: 20px;
+    color: #0284c7;
+    font-weight: 500;
+    font-size: 20px;
+  }
+}

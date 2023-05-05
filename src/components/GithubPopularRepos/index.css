@@ -1,0 +1,57 @@
+/* Write your CSS here */
+.main-con {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.title {
+  font-family: lobster;
+  font-size: 50px;
+}
+.un-list {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  /* background-color: red; */
+}
+
+.btn-con {
+  min-width: 80px;
+  height: 40px;
+  font-size: 20px;
+  border: 0px;
+  display: flex;
+}
+
+@media (min-width: 768px) and (max-width: 968px) {
+  .un-list {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    /* background-color: red; */
+  }
+}
+
+@media (max-width: 768px) {
+  .un-list {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    /* background-color: red; */
+  }
+  .btn-con {
+    min-width: 100vw;
+    font-size: 15px;
+    border: 0px;
+    display: flex;
+  }
+}
